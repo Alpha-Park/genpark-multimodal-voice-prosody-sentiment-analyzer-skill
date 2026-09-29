@@ -1,0 +1,28 @@
+{
+  "name": "genpark-multimodal-voice-prosody-sentiment-analyzer-skill",
+  "version": "1.0.0",
+  "description": "Multi-modal speech prosody and vocal sentiment analyzer detecting speech rate, pitch variance, and user cognitive fatigue to dynamically calibrate agent response pacing.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "voice-prosody",
+    "speech-sentiment",
+    "hume-ai",
+    "empathic-voice",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "analyze_speech_prosody",
+      "description": "Analyze vocal prosody metrics and textual markers."
+    },
+    {
+      "name": "compute_agent_adaptation_profile",
+      "description": "Compute dynamic agent pacing and empathy adaptation profile."
+    },
+    {
+      "name": "run_voice_prosody_benchmark",
+      "description": "Run multimodal voice prosody analyzer benchmark."
+    }
+  ]
+}
